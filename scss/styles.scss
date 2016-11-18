@@ -11,38 +11,51 @@ $color: 	#d36154;
 body, html {
   margin: 0;
   padding: 0;
-  background-color: silver;
+  background-color: gray;
 }
 
 .header {
-    border-bottom: 10px solid hotpink;
+    border-bottom: 10px solid black;
+
 }
 
 .header img {
-  width: 750px;
+  width: 100%;
+  margin-bottom: -5px;
 }
 
 .wrapper {
-  width: 750px;
+  width: 90%;
+  height: 100%;
   margin: 0 auto;
-  background-color: orange;
+  background-color: silver;
 
 }
 
 .leftColumn {
-  width: 500px;
-  background-color: pink;
+  width: 80%;
+  height: auto;
+  background-color: #fff;
   float: left;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 65%;
+      height: auto;
+      object-fit: contain;
+    }
 
 }
 
 .rightColumn {
-  width: 250px;
-  background-color: tomato;
+  width: 20%;
+  height: auto;
+  background-color: silver;
   float: right;
 }
 
 .footer {
   clear: both;
   background-color: black;
+  height: 30%;
 }
