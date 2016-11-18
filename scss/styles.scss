@@ -8,12 +8,41 @@
 
 $color: 	#d36154;
 
-body {
+body, html {
   margin: 0;
+  padding: 0;
   background-color: silver;
 }
 
+.header {
+    border-bottom: 10px solid hotpink;
+}
+
 .header img {
-  width: 100vw;
-  
+  width: 750px;
+}
+
+.wrapper {
+  width: 750px;
+  margin: 0 auto;
+  background-color: orange;
+
+}
+
+.leftColumn {
+  width: 500px;
+  background-color: pink;
+  float: left;
+
+}
+
+.rightColumn {
+  width: 250px;
+  background-color: tomato;
+  float: right;
+}
+
+.footer {
+  clear: both;
+  background-color: black;
 }
