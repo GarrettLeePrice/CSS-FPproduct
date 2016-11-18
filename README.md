@@ -1,24 +1,36 @@
-# _CSS practice_
+# _{FP product page}_
 
-#### By _Kevin Johnston and Ethan Law_
+#### _{A product details page}, {11/18/16}_
+
+#### By _**{Garrett Price}**_
 
 ## Description
 
-_A css project using a gulp template with node.js in the backend, backend dependencies managed by gulp, frontend by bower, and css by sass_
+_{This is webpage shows the details of a product for sale. This is project to practice and show my ability to position page elements using various techniques. }_
 
 ## Setup/Installation Requirements
 
+* _Navigate to http://garrettleeprice.github.io/FPproduct to see the live site_
+* _* OR, to run the page locally - __
 * _Copy the repository from GitHub_
 * _Open in code editor of your choice_
-* _Change the project name (and other info as necessary) in the package.json and bower.json files_
-* _Run npm install_
-* _run bower install_
-* _run gulp build to build the project for the first time and gulp serve to start the development server_
+* _In the terminal navigate to the project directory and run npm install_
+* _Run bower install_
+* _Run gulp build to build the project for the first time and gulp serve to start the development server_
+## Known Bugs
 
+_{No known bugs }_
 
+## Support and contact details
 
-## Licensing
+_{garrettleeprice@gmail.com}_
 
-* MIT
+## Technologies Used
 
-Copyright (c) 2016 **_Kevin Johnston & Ethan Law_**
+_{HTML, SASS/CSS, GULP, Bower, NPM}_
+
+### License
+
+*{MIT}*
+
+Copyright (c) 2016 **_{Garrett Price}_**
