@@ -57,5 +57,14 @@ body, html {
 .footer {
   clear: both;
   background-color: black;
-  height: 30%;
+  height:200px;
+}
+
+.thumbnail img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  display: inline-block;
+  float: left;
+  margin: 40px 10px 0 30px;
 }
