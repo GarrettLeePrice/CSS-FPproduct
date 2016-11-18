@@ -1,12 +1,12 @@
-# _{FP product page}_
+# _FP product page_
 
-#### _{A product details page}, {11/18/16}_
+#### _A product details page, 11/18/16_
 
-#### By _**{Garrett Price}**_
+#### By _**Garrett Price**_
 
 ## Description
 
-_{This is webpage shows the details of a product for sale. This is project to practice and show my ability to position page elements using various techniques. }_
+_This is webpage shows the details of a product for sale. This is project to practice and show my ability to position page elements using various techniques. _
 
 ## Setup/Installation Requirements
 
@@ -19,18 +19,18 @@ _{This is webpage shows the details of a product for sale. This is project to pr
 * _Run gulp build to build the project for the first time and gulp serve to start the development server_
 ## Known Bugs
 
-_{No known bugs }_
+_No known bugs _
 
 ## Support and contact details
 
-_{garrettleeprice@gmail.com}_
+_garrettleeprice@gmail.com_
 
 ## Technologies Used
 
-_{HTML, SASS/CSS, GULP, Bower, NPM}_
+_HTML, SASS/CSS, GULP, Bower, NPM_
 
 ### License
 
-*{MIT}*
+*MIT*
 
-Copyright (c) 2016 **_{Garrett Price}_**
+Copyright (c) 2016 **_Garrett Price_**
