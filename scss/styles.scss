@@ -1,70 +1,87 @@
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-$color: 	#d36154;
-
+$color : #d36154;
 body, html {
-  margin: 0;
-  padding: 0;
-  background-color: gray;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
 }
-
+ul {
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+li {
+	padding: 10px;
+}
+hr {
+	width: 50%;
+	margin-left: 10px;
+}
 .header {
-    border-bottom: 10px solid black;
-
+	border-bottom: 10px solid black;
 }
-
 .header img {
-  width: 100%;
-  margin-bottom: -5px;
+	width: 100%;
+	margin-bottom: -5px;
 }
-
 .wrapper {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  background-color: silver;
-
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: silver;
 }
-
 .leftColumn {
-  width: 80%;
-  height: auto;
-  background-color: #fff;
-  float: left;
-    img {
-      display: block;
-      margin: 0 auto;
-      width: 65%;
-      height: auto;
-      object-fit: contain;
-    }
-
+	width: 80%;
+	height: auto;
+	background-color: #fff;
+	float: left;
 }
-
 .rightColumn {
-  width: 20%;
-  height: auto;
-  background-color: silver;
-  float: right;
+	width: 20%;
+	height: auto;
+	background-color: silver;
+	float: right;
 }
-
 .footer {
-  clear: both;
-  background-color: black;
-  height:200px;
+	clear: both;
+	background-color: black;
+	height: 200px;
 }
-
 .thumbnail img {
-  width: 125px;
-  height: 125px;
-  object-fit: cover;
-  display: inline-block;
-  float: left;
-  margin: 40px 10px 0 30px;
+	width: 125px;
+	height: 125px;
+	object-fit: cover;
+	display: inline-block;
+	float: left;
+	margin: 40px 10px 0 30px;
+	border-radius: 10px;
+}
+#chevyShirt {
+	width: 65%;
+	height: auto;
+	object-fit: contain;
+	display: block;
+	margin: 0 auto;
+}
+.skull {
+	position: absolute;
+	bottom: 420px;
+	left: 285px;
+}
+.talkBubble {
+	position: absolute;
+	bottom: 500px;
+	left: 180px;
+}
+.form {
+	padding-top: 200px;
+	display: block;
+	margin: 0 auto;
+	h3 {
+		margin-left: -10px;
+	}
 }
