@@ -10,13 +10,10 @@ _This is webpage shows the details of a product for sale. This is project to pra
 
 ## Setup/Installation Requirements
 
-* _Navigate to http://garrettleeprice.github.io/FPproduct to see the live site_
+* _Navigate to http://garrettleeprice.github.io/CSS-FPproduct to see the live site_
 * _* OR, to run the page locally - __
 * _Copy the repository from GitHub_
-* _Open in code editor of your choice_
-* _In the terminal navigate to the project directory and run npm install_
-* _Run bower install_
-* _Run gulp build to build the project for the first time and gulp serve to start the development server_
+* _Open index.html in your favorite web browser_
 ## Known Bugs
 
 _No known bugs _
@@ -27,7 +24,7 @@ _garrettleeprice@gmail.com_
 
 ## Technologies Used
 
-_HTML, SASS/CSS, GULP, Bower, NPM_
+_HTML, CSS
 
 ### License
 
