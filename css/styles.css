@@ -11,12 +11,13 @@ body, html {
 }
 ul {
 	display: block;
-	margin: 0 auto;
+	margin: 0 0 0 2px;
 	padding-top: 50px;
 }
 li {
 	padding: 10px;
   font-size: 16pt;
+	list-style-type: none;
 }
 
 input:hover {
@@ -24,11 +25,13 @@ input:hover {
 }
 
 hr {
-	width: 50%;
-	margin-left: 10px;
+	width: 200px;
+	margin-left: 40px;
+	margin-top: 75px;
 }
 .header {
 	border-bottom: 10px solid black;
+
 }
 .header img {
 	width: 100%;
@@ -36,25 +39,28 @@ hr {
 }
 
 .leftColumn {
-	width: 70%;
-	height: 700px;
+	width:900px;
+	height: 1000px;
 	background-color: #fff;
 	float: left;
 	position: relative;
 	background-image: url('../img/LiveFastDieCREW125.jpg');
   background-repeat: no-repeat;
   background-size:contain;
+	background-position: center;
+
 }
 
 
 .rightColumn {
-	width: 30%;
-	height: 100%;
+	width: 200px;
+	height:1000px;
 	background-color: silver;
-	float: right;
+	float: left;
+	/*margin-bottom: 20px;*/
 }
 .footer {
-	clear: both;
+	clear:both;
 	background-color: black;
 	height: 200px;
 }
@@ -70,17 +76,18 @@ hr {
 
 .skull {
 	position: absolute;
-	bottom: 450px;
+	bottom: 750px;
 	left: 685px;
 }
 .talkBubble {
 	position: absolute;
-	bottom: 530px;
+	bottom: 830px;
 	left: 580px;
 }
 .form {
   width: 285px;
-	padding-top: 200px;
+	padding-top: 75px;
+	padding-left: 40px;
 	display: block;
 	margin: 0 auto;
 
@@ -88,6 +95,7 @@ hr {
 
 #question {
   width: 267px;
+	margin-top: 5px;
 }
 
 #addToCart {
@@ -97,6 +105,7 @@ hr {
   border: none;
   border-radius: 15px;
   margin-top: 20px;
+	margin-left: 35px;
   font-size: 10pt;
   color: white;
 }
@@ -105,3 +114,22 @@ hr {
   background-color: gold;
   color: black;
 }
+
+#submit {
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	margin-top: 10px;
+
+}
+
+
+#submit:hover {
+	background-color: gold;
+  color: black;
+
+}
+/*#submit {
+	margin-bottom: 200px;
+}*/
